@@ -11,9 +11,10 @@ import 'package:SwiftPay/starting_page.dart';
 //       ),
 //     );
 
-void main(){
+void main() {
   runApp(MyApp());
 }
+
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
@@ -26,8 +27,6 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      locale: DevicePreview.locale(context),
-      builder: DevicePreview.appBuilder,
       home: const SplashScreen(),
     );
   }
