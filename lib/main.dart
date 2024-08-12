@@ -1,18 +1,12 @@
 import 'dart:async';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:SwiftPay/starting_page.dart';
-// import 'package:device_preview/device_preview.dart';
-// import 'package:flutter/foundation.dart' show kReleaseMode;
 
-// void main() => runApp(
-//       DevicePreview(
-//         enabled: !kReleaseMode,
-//         builder: (context) => const MyApp(), // Wrap your app
-//       ),
-//     );
-
-void main() {
-  runApp(MyApp());
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp( const MyApp());
 }
 
 class MyApp extends StatefulWidget {
