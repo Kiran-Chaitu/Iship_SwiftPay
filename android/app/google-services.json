@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "332898132680",
+    "project_id": "swiftpay-81fe8",
+    "storage_bucket": "swiftpay-81fe8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332898132680:android:35ed9be0ea5956a0603bfd",
+        "android_client_info": {
+          "package_name": "com.example.i_ship"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEuxCuyf3aeiVMnA1u-BLo1OJ-i92GoVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
